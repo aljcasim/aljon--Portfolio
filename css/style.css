@@ -1,0 +1,253 @@
+style.css
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.banner {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0px 50px;
+}
+
+.banner {
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #fff;
+}
+
+.banner .intro .info h1 {
+  font-size: 5rem;
+}
+
+.banner .intro .info a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.banner .banner-img img {
+  max-height: 500px;
+}
+
+.about,
+.resume,
+.portfolio,
+.contact {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0px 50px;
+  height: 100vh;
+}
+
+.about h2 {
+  font-size: 3.4rem;
+}
+
+.about h3 {
+  font-size: 6rem;
+}
+
+.about p {
+  font-size: 2rem;
+}
+
+.about button {
+  font-size: 20px;
+  font-weight: bolder;
+  width: 400px;
+  height: 50px;
+  line-height: 1;
+  letter-spacing: 10px;
+  border: none;
+  margin-top: 20px;
+}
+
+.resume .school h2 {
+  font-size: 5rem;
+  margin-bottom: 35px;
+}
+
+.resume .school p {
+  font-size: 45px;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+.portfolio h2 {
+  font-size: 5em;
+}
+
+.portfolio h3 {
+  font-size: 2rem;
+}
+
+.portfolio p {
+  font-size: 20px;
+}
+
+.program {
+  height: 200px;
+}
+
+.portfolio .col-md-6 .program .work img {
+  max-width: 200px;
+}
+
+.contact h2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact .col-md-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.contact .con-info h3 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.contact .con-info i,
+span {
+  font-size: 1.8rem;
+}
+
+.contact .col-md-12 .con-info,
+.soc-med {
+  width: 400px;
+  padding: 20px;
+}
+
+.contact .con-info {
+  background-color: #fff;
+}
+
+.contact .soc-med {
+  background-color: rgb(77, 77, 77);
+}
+
+.contact .soc-med i,
+span,
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.contact .soc-med h3 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner .intro .info h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .banner .banner-img img {
+    max-height: 200px;
+    margin-top: 20px;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .about h2 {
+    font-size: 3.4rem;
+    text-align: center;
+  }
+
+  .about h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .about button {
+    font-size: 15px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resume .school h2 {
+    font-size: 3rem;
+    margin-bottom: 35px;
+  }
+
+  .resume .school p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .portfolio h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .contact .col-md-12 {
+    flex-direction: column;
+  }
+
+  .contact .con-info h3 {
+    font-size: 2rem;
+  }
+
+  .contact .con-info i,
+  span {
+    font-size: 1rem;
+  }
+
+  .contact .col-md-12 .con-info,
+  .soc-med {
+    width: 350px;
+    padding: 20px;
+  }
+
+  .contact .soc-med i,
+  span,
+  a {
+    font-size: 1rem;
+  }
+
+  .contact .info {
+    padding: 0px 20px;
+  }
+
+  .contact .soc-med h3 {
+    font-size: 2rem;
+  }
+}
